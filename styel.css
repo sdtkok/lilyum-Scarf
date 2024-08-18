@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Electrolize&display=swap');
+
+ 
+ /* base page start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* base page end */
+
+ body{
+    font-family: "Electrolize", sans-serif;
+    height: 100vh;
+ }
+
+.navbar{
+    background-color: bisque;
+    height: 150px;
+    color: black;
+
+}
+
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-wrapper a img{
+height: 150px;
+}
+.menu-profil-list{
+    display: flex;
+}
+.menu-list-1{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+    text-transform: uppercase;
+
+}
+.profil-conteiner-list{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.menu-list-2:hover{
+    font-weight: bold;
+}
+.profil-list:hover{
+    font-weight: bold;
+
+}
+.şal-başlıgı{
+font-size: 25px;
+text-align: center;
+text-transform: uppercase;
+
+
+}
+.şal-list{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    column-gap: 10px;
+
+}
+.şal-item{
+    position: relative;
+   
+
+}
+.şal-item:hover .jakar-şal-item{
+    opacity: 1;
+}
+
+.şal-item:hover .j-şal-seri{
+    transform: scale(1.2);
+    margin: 0 30px;
+}
+
+.j-şal-seri{
+    width: 300px;
+    height: 500px;
+    padding-top: 80px;
+    transition: 1.5s all ease-in-out;
+
+
+}
+
+.jakar-şal-item{
+    background-color: rgba(254, 120, 2, 0.078);
+    font-size: 28px;
+    padding: 0 10px;
+    font-weight: bold;
+    position: absolute;
+    text-transform: capitalize;
+    cursor: pointer;
+    top: 20%;
+    left: 50px;
+    opacity: 0;
+    transition: 1.5s all ease-in-out;
+
+}
+.genel-başlık{
+    font-size: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 7%;
+
+
+}
+.alt-üst-dış-esarp-şal-çanta{
+    list-style: none;
+    padding: 30px;
+}
+.genel-img{
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+}
+.alt-üst-dış-esarp-şal-çanta{
+    display: flex;
+    align-items: center;
+    column-gap: 10px; 
+}
+
+.resim-alt-yazı-item{
+    background-color:rgba(238, 113, 11,0.3);
+    padding: 10px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    position: absolute;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    bottom: 7%;
+    left: 100px;
+}
+.alt-üst-dış-esarp-şal-çanta-item{
+    position: relative;
+
+}
+
+
+.alt-üst-dış-esarp-şal-çanta-item:hover .resim-alt-yazı-item{
+    opacity: 1;
+
+}
